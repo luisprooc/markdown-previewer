@@ -10,17 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/index.js" defer></script>
     <title>Markdown Previewer</title>
 </head>
 <body>
     <main>
         <div class="row">
             <div class="col" id="editor-col">
-                <h1>MARKDOWN PREVIEWER</h1>
-                <textarea id="editor"></textarea>
+                <h1 id="title">MARKDOWN PREVIEWER</h1>
+                <textarea id="editor">
+                </textarea>
             </div>
             <div class="col" id="preview-col">
-                <div class="preview">
+                <div id="preview">
                     
                 </div>
             </div>
